@@ -1,12 +1,21 @@
-# React + Vite
+# Memory Match – React + Tailwind + Framer Motion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished browser memory game with difficulty levels, smooth animations, pause/resume, and local best scores.
 
-Currently, two official plugins are available:
+## Tech
+- React (Vite)
+- Tailwind CSS
+- Framer Motion
+- WebAudio (tiny beeps, no assets)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- 3 difficulties: 4×4, 6×4, 6×6
+- Timer, moves, per-difficulty best score (localStorage)
+- Pause/Resume, Restart
+- Mock leaderboard (stub JSON)
+- Responsive UI, subtle hover/tap effects
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup
+```bash
+npm i
+npm run dev
